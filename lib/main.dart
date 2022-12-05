@@ -87,7 +87,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 ElevatedButton(
                     onPressed: (){
                       setState((){
-                        out = 0;
                         out = num.parse(firstEditingController.text) + num.parse(secondEditingController.text);
                       });
                     },
@@ -96,7 +95,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 ElevatedButton(
                   onPressed: (){
                     setState((){
-                      out = 0;
                       out = num.parse(firstEditingController.text) - num.parse(secondEditingController.text);
                     });
                   },
@@ -105,7 +103,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 ElevatedButton(
                   onPressed: (){
                     setState((){
-                      out = 0;
                       out = num.parse(firstEditingController.text) * num.parse(secondEditingController.text);
                     });
                   },
@@ -114,7 +111,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 ElevatedButton(
                   onPressed: (){
                     setState((){
-                      out = 0;
                       out = num.parse(firstEditingController.text) / num.parse(secondEditingController.text);
                     });
                   },
